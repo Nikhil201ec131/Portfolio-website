@@ -1,0 +1,163 @@
+.skills{
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-weight:500;
+    font-size:2.0rem; 
+    margin:0 auto;
+    margin-top: 2rem;
+    border-bottom: 2px solid yellow;
+    width: 20%;
+}
+
+.skill-container{
+    color: aliceblue;
+    list-style: none;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:40px;
+    margin:2rem;
+}
+
+.skill-container li{
+    margin: 1rem 0;
+    
+}
+.bar{
+
+    background:black;
+    display: block;
+    height: 7px;
+    border: 1px solid rgb(238, 239, 224);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px yellowgreen;
+
+}
+.bar span{
+    height: 6px;
+    float: left;
+    background: yellow;
+}
+.html{
+    width:90%;
+    animation: html 10s;
+}
+.Css{
+    width:65%;
+    animation: Css 10s;
+}
+
+.C{
+    width:70%;
+    animation: C 10s;
+}
+
+.Cpp{
+    width:85%;
+    animation: Cpp 10s;
+}
+.python{
+    width:75%;
+    animation: python 10s;
+}
+.jquery{
+    width: 50%;
+    animation: jquery 10s;
+}
+.javaScript{
+    width: 60%;
+    animation: javaScript 10s;
+}
+.react{
+    width: 40%;
+    animation: react 10s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes Css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes javaScript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes jquery {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:40%;
+    }
+}
+@keyframes C {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+
+@keyframes Cpp {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+
+
+
+
+.skillimg{
+
+    border-radius: 50%;
+    background-color: white;
+    min-width:50px;
+    width: 50px;
+   
+
+}
+
+@media screen  and (max-width:640px) {
+    .skill-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
