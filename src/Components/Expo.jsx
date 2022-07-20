@@ -1,6 +1,6 @@
 import"./Expostylesheet.css";
 import React from 'react';
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import pro from '../assets/pro.png'
 const Expo = (props) => {
   return (
@@ -12,8 +12,8 @@ const Expo = (props) => {
             {props.text}
         </p>
         <div className="pro-btns">
-         <NavLink to={props.view} className="bttn">view</NavLink>
-         <NavLink to={props.source} className="bttn">source</NavLink>
+         <Link to={props.view} className="bttn">view</Link>
+         <Link to={props.source} className="bttn">source</Link>
         </div>
       </div>
      </div>
