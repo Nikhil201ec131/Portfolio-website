@@ -12,8 +12,8 @@ const Expo = (props) => {
             {props.text}
         </p>
         <div className="pro-btns">
-         <Link to={props.view} className="bttn">view</Link>
-         <Link to={props.source} className="bttn">source</Link>
+         <a href={props.view} className="bttn">view</a>
+         <a herf={props.source} className="bttn">source</a>
         </div>
       </div>
      </div>
