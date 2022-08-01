@@ -13,7 +13,7 @@ const Expo = (props) => {
         </p>
         <div className="pro-btns">
          <a href={props.view} className="bttn">view</a>
-         <a herf={props.source} className="bttn">source</a>
+         <a href={props.source} className="bttn">source</a>
         </div>
       </div>
      </div>
