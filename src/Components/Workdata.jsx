@@ -11,7 +11,7 @@ const ProjectCardData=[
         imgsrc:pro2,
         title:"Ominfood",
         text:"A clone of website called Omnifood using HTML, CSS, JavaScript, Jquery. Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible. I have cloned the Home landing page of this website and hosted it on netlify .Click on the below icons to see the Source code and hosted website.",
-        view:"https://62aa28ab26edff6ff1430127--dancing-hummingbird-c71f73.netlify.app/",
+        view:"https://jovial-dragon-4687dc.netlify.app/",
         source:"https://github.com/Nikhil201ec131/Omnifood"
 
     },
@@ -20,7 +20,7 @@ const ProjectCardData=[
         imgsrc:pro1,
         title:"Coindeko",
         text:"A Cryptocurrencies web application build using REACT and coinranking API integration. In this project one can see real time crypto prices along with charts data.These live charts are build using integration of API data and chart.js library.All GLOBAL STATS including 100+ cryptocurrencies, daily trending News, all Exchanges are being listed time to time automatically using API. I personally use my web app to check updates in crypto market.Click below to see more....",
-        view:"https://62e689a0e8e9f5641acf1d44--rad-jelly-57ac5d.netlify.app/",
+        view:"https://fascinating-sorbet-d935b4.netlify.app/",
         source:"https://github.com/Nikhil201ec131/Coindeko"
 
     },
@@ -29,7 +29,7 @@ const ProjectCardData=[
         imgsrc:pro3,
         title:"Weather-App",
         text:`In this project I created a weather app using HTML CSS JavaScript , which uses an API from WeatherApi which is available on Rapidapi website to get weather information in our current location we are present. This app shows the temperature of day and night, humidity, sunrise, sunset timings and changes the icon according to the current weather status. In this app one can see future weather forcaste for day and night temperature. Click below to see hosted website`,
-        view:"https://62e68b04b929a75ca2ef0708--majestic-cuchufli-3909e3.netlify.app/",
+        view:"https://app.netlify.com/sites/startling-scone-78d272/overview",
         source:"https://github.com/Nikhil201ec131/webapp",
 
     },
