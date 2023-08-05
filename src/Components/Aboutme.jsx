@@ -3,6 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import myimg from '../assets/myimg.jpeg'
 import myimg2 from '../assets/p2.jpg'
+import me from '../assets/me.jpg'
 
 const Aboutme = () => {
   return (
@@ -24,8 +25,7 @@ const Aboutme = () => {
       <div className="right">
        <div className="img-container">
         <div className="img-stack top">
-          <img src={myimg} className="img" alt="myimage"/>
-          <img src={myimg2} className="img-2" alt="myimage"/>
+          <img src={me} className="img" alt="myimage"/>
 
         </div>
 
