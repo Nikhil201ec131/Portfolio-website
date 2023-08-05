@@ -10,7 +10,12 @@ const Aboutme = () => {
       <div className="left">
        <h1>Who Am I?</h1>
        <p>
-        Im a react front-end devloper
+     
+        <h3>React Front-End Developer</h3> 
+         <section> <h2>Experience</h2> <h4>Ex-SDE Intern  @Standard Chartered GBS: </h4>
+        <p>Worked on React, <entity>Nodejs</entity>, <entity>Java</entity>, SpringBoot, Maven.</p>
+        <div> <h4>Q/A Expert  @Transtutors:</h4> <p>Assisted 40+ students in their assignments and projects.</p> </div> 
+        </section> <section> <h2>Education</h2> <p>B.Tech in Electronics and Communication Engineering - NITK</p> </section>
        </p>
        <Link to="/Contact">
         <button className="btn">Contact</button>
