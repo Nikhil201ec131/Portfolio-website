@@ -2,8 +2,12 @@ import pro from '../assets/pro.png'
 import pro1 from '../assets/crypto.png'
 import pro2 from '../assets/foodie.png'
 import pro3 from '../assets/Wa.png'
+import pro5 from '../assets/tumor.png'
 import pro4 from '../assets/fake.webp'
-import pro5 from '../assets/progress.webp'
+import pro6 from '../assets/progress.webp'
+import pro7 from '../assets/data.jpg'
+import pro8 from '../assets/fpga.jpg'
+import pro9 from '../assets/btrade.png'
 const ProjectCardData=[
    
 
@@ -29,7 +33,7 @@ const ProjectCardData=[
         imgsrc:pro3,
         title:"Weather-App",
         text:`In this project I created a weather app using HTML CSS JavaScript , which uses an API from WeatherApi which is available on Rapidapi website to get weather information in our current location we are present. This app shows the temperature of day and night, humidity, sunrise, sunset timings and changes the icon according to the current weather status. In this app one can see future weather forcaste for day and night temperature. Click below to see hosted website`,
-        view:"https://app.netlify.com/sites/startling-scone-78d272/overview",
+        view:"https://startling-scone-78d272.netlify.app",
         source:"https://github.com/Nikhil201ec131/webapp",
 
     },
@@ -44,6 +48,32 @@ const ProjectCardData=[
     },
     {
         imgsrc:pro5,
+        title:"Kidney Tumor Detection",
+        text:"Build a Model for Tumor segmentation in the Kidney that will help medical experts to have a support system that can automatically and accurately segment tumors in the kidney if a kidney is having malignant cell presence. The model is build using 3D-Net architecture and trained on 300 CT of Kits19 images of kidney tumor dataset. Click below to see more....",
+        view:"https://github.com/Nikhil201ec131/Kidney_Tumor_detection",
+        source:"https://github.com/Nikhil201ec131/Kidney_Tumor_detection"
+
+    },
+    {
+        imgsrc:pro7,
+        title:"Data Compression on FPGA",
+        text:"Implemented Data compression on the FPGA using Verilog Hardware description language.Created a Verilog model for two kinds of lossless data compression algorithms i.e Huffman compression and Shanon fano algorithm, Compared the performances and implemented the Huffman algorithm on the FPGA.",
+        view:"https://github.com/Nikhil201ec131/Data-Compression-on-FPGA.git",
+        source:"https://github.com/Nikhil201ec131/Data-Compression-on-FPGA.git"
+
+    },
+
+    {
+        imgsrc:pro8,
+        title:"FFT for OFDM on FPGA",
+        text:"build a 64-point FFT (Fast Fourier Transform) architecture using two 8-point FFT blocks that can fulfill the requirement for Wireless LAN where each FFT/IFFT operation must be completed under less time. This architecture consumes less silicon area and results in considerable reduction in cost. For computation of IFFT/FFT full parallel scheme is adopted there by making it very fast. Complex multiplication constant are calculated using shift and add operation there by reducing area and power consumption as compared to multiplier",
+        view:"",
+        source:""
+
+    },
+
+    {
+        imgsrc:pro6,
         title:"Task Manager",
         text:"Comming soon....",
         view:"",
@@ -51,14 +81,13 @@ const ProjectCardData=[
 
     },
     {
-        imgsrc:pro,
-        title:"Project Title",
-        text:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        imgsrc:pro9,
+        title:"Blockchain Based Trading System",
+        text:"Comming soon....",
         view:"",
         source:""
 
     },
-
    
 
 ];
