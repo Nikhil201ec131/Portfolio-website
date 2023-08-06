@@ -24,7 +24,7 @@ const ProjectCardData=[
         imgsrc:pro1,
         title:"Coindeko",
         text:"A Cryptocurrencies web application build using REACT and coinranking API integration. In this project one can see real time crypto prices along with charts data.These live charts are build using integration of API data and chart.js library.All GLOBAL STATS including 100+ cryptocurrencies, daily trending News, all Exchanges are being listed time to time automatically using API. I personally use my web app to check updates in crypto market.Click below to see more....",
-        view:"https://fascinating-sorbet-d935b4.netlify.app/",
+        view:"https://coindeko-madhuanla-nikhil-nitk.netlify.app/",
         source:"https://github.com/Nikhil201ec131/Coindeko"
 
     },
@@ -33,7 +33,7 @@ const ProjectCardData=[
         imgsrc:pro3,
         title:"Weather-App",
         text:`In this project I created a weather app using HTML CSS JavaScript , which uses an API from WeatherApi which is available on Rapidapi website to get weather information in our current location we are present. This app shows the temperature of day and night, humidity, sunrise, sunset timings and changes the icon according to the current weather status. In this app one can see future weather forcaste for day and night temperature. Click below to see hosted website`,
-        view:"https://startling-scone-78d272.netlify.app",
+        view:"https://weather-madhunalanikhil-nitk/",
         source:"https://github.com/Nikhil201ec131/webapp",
 
     },
