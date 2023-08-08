@@ -33,7 +33,7 @@ const ProjectCardData=[
         imgsrc:pro3,
         title:"Weather-App",
         text:`In this project I created a weather app using HTML CSS JavaScript , which uses an API from WeatherApi which is available on Rapidapi website to get weather information in our current location we are present. This app shows the temperature of day and night, humidity, sunrise, sunset timings and changes the icon according to the current weather status. In this app one can see future weather forcaste for day and night temperature. Click below to see hosted website`,
-        view:"https://weather-madhunalanikhil-nitk/",
+        view:"https://weather-madhunalanikhil-nitk.netlify.app/",
         source:"https://github.com/Nikhil201ec131/webapp",
 
     },
